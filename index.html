@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <center><h1>Registration Form</h1></center>
+        </header>
+        <section>
+            <form>
+                <div class="field">
+                    <label class="float-left">First Name<div class="icon"><i class="ifname fa" id="ic"></i></div> </label>
+                    <input type="text" class="float-right" name="fname" id="fname"><br/>
+                </div>
+                <div class="span-field">
+                    <span class="fname-span"></span>
+                </div>
+                <div class="field">
+                    <label class="float-left">Last Name<div class="icon"><i class="ilname fa" id="ic"></i></div></label>
+                    <input type="text" class="float-right" name="lname" id="lname"><br/>
+                </div>
+                <div class="span-field">
+                    <span class="lname-span"></span>
+                </div>
+                <div class="big-field field">
+                    <label class="radio-left">Gender<div class="gicon"><i class="igender fa"></i></div></label>
+                    <div class="radio-right">
+                        <input type="radio" name="gender" value="Male" id="radio" class=""><label> Male</label><br/><br/>
+                        <input type="radio" name="gender" value="Female" id="radio" class=""><label> Female</label>
+                    </div>
+                </div>
+                <div class="span-field">
+                    <span class="gender-span"></span>
+                </div>
+                <div class="field">
+                    <label class="float-left">Contact No<div class="icon"><i class="ic fa"></i></div></label>
+                    <input type="text" class="float-right" name="phno" id="phno"><br/>
+                </div>
+                <div class="span-field">
+                    <span class="phno-span"></span>
+                </div>
+                <div class="field">
+                    <label class="float-left">Email<div class="eicon"><i class="iemail fa"></i></div></label>
+                    <input type="text" class="float-right" name="email" id="email"><br/>
+                </div>
+                <div class="span-field">
+                    <span class="email-span"></span>
+                </div>
+                <div class="field">
+                    <label class="float-left">Address<div class="aicon"><i class="iaddress fa"></i></div></label>
+                    <input type="text" class="float-right" name="address" id="address"><br/>
+                </div>
+                <div class="span-field">
+                    <span class="addr-span"></span>
+                </div>
+            </form>
+            <button class="check">Submit</button>
+            <button class="cancel">Cancel</button>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
